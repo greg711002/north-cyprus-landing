@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Инвестиции в недвижимость Северного Кипра — под ключ</title>
+  <style>
+    :root {
+      --primary: #0056b3;
+      --secondary: #2e7d32;
+      --accent: #ff9800;
+      --bg: #f5f7fa;
+      --text: #333;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    h1, h2, h3 { line-height: 1.2; margin-bottom: 1rem; }
+    p { margin-bottom: 1rem; }
+    a { text-decoration: none; color: inherit; }
+    button, .btn { display: inline-block; padding: 14px 28px; border-radius: 6px; font-weight: 600; cursor: pointer; border: none; transition: 0.3s; }
+    .btn-primary { background: var(--primary); color: var(--white); }
+    .btn-secondary { background: var(--secondary); color: var(--white); }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+
+    /* Hero */
+    header.hero {
+      position: relative;
+      overflow: hidden;
+      padding: 80px 0;
+      background: linear-gradient(135deg, #0f202a 0%, #2c5364 100%);
+      color: var(--white);
+      text-align: center;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(15,32,42,0.90) 0%, rgba(44,83,100,0.70) 100%);
+    }
+    header.hero .container { position: relative; z-index: 2; }
+    .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; opacity: 0.9; max-width: 700px; margin: 0 auto 2rem auto; }
+
+    /* Sections */
+    section { padding: 60px 0; }
+    .section-title { text-align: center; margin-bottom: 3rem; }
+    .section-title h2 { font-size: 2.2rem; }
+
+    /* Grids */
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+    .card { background: var(--white); padding: 30px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+    .card h3 { color: var(--primary); margin-top: 0; }
+    .card .stat { font-size: 2rem; font-weight: bold; color: var(--accent); }
+
+    /* Numbers block */
+    .numbers { display: flex; justify-content: space-around; flex-wrap: wrap; margin-bottom: 3rem; }
+    .number-item { text-align: center; }
+    .number-item .num { font-size: 2.5rem; font-weight: bold; color: var(--primary); }
+    .number-item .label { color: #666; font-size: 0.9rem; }
+
+    /* Quiz block */
+    .quiz-block { background: var(--white); padding: 40px; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); max-width: 700px; margin: 0 auto; }
+    .quiz-form label { display: block; margin-top: 15px; font-weight: 500; }
+    .quiz-form input, .quiz-form select { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; margin-top: 6px; }
+
+    /* Footer */
+    footer { background: #1a1a1a; color: #ccc; padding: 40px 0; text-align: center; }
+    footer a { color: #fff; }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2rem; }
+      .numbers { flex-direction: column; gap: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img class="hero-bg" src="assets/hero.jpg" alt="Гавань Кирении, Северный Кипр" fetchpriority="high" decoding="async">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="container">
+      <h1>Инвестируйте с уверенностью: доходность и защита капитала</h1>
+      <p>Подберём объекты под ваш бюджет и цель: перепродажа на этапе строительства, долгосрочная или краткосрочная аренда. Фиксируем этапы, сроки и риски в договоре.</p>
+      <button class="btn btn-primary" onclick="document.getElementById('quiz').scrollIntoView({behavior:'smooth'})">Получить расчёт доходности</button>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Почему инвесторы выбирают Северный Кипр</h2>
+        <p>Прозрачные цифры и понятные стратегии вместо обещаний</p>
+      </div>
+      <div class="numbers">
+        <div class="number-item">
+          <div class="num">8–9%</div>
+          <div class="label">Доходность от долгосрочной аренды в Фамагусте и Кирении</div>
+        </div>
+        <div class="number-item">
+          <div class="num">20–40%</div>
+          <div class="label">Капитализация при перепродаже после сдачи объекта</div>
+        </div>
+        <div class="number-item">
+          <div class="num">5–7,5%</div>
+          <div class="label">Гарантированная аренда от застройщиков (фиксированный доход)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Инвестиционные стратегии под вашу цель</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Перепродажа на этапе строительства</h3>
+          <p>Покупка на котловане → продажа после сдачи. Капитализация 20–40% за 1,5–2 года. Мы подбираем объекты с подтверждёнными сроками сдачи и контролируем график строительства.</p>
+          <button class="btn btn-secondary" onclick="document.getElementById('quiz').scrollIntoView({behavior:'smooth'})">Подобрать объект</button>
+        </div>
+        <div class="card">
+          <h3>Долгосрочная аренда</h3>
+          <p>Стабильный пассивный доход 8–9% годовых. Особенно перспективно рядом с университетами (Фамагуста) и в жилых районах Кирении. Возьмём на себя управление: поиск арендаторов, контроль состояния, оплата счетов.</p>
+          <button class="btn btn-secondary" onclick="document.getElementById('quiz').scrollIntoView({behavior:'smooth'})">Рассчитать доходность</button>
+        </div>
+        <div class="card">
+          <h3>Гарантированная аренда</h3>
+          <p>Фиксированный доход 5–7,5% годовых от застройщика. Вы получаете доход даже при простое. Юридически закрепляем условия в договоре. Это снижает риск и делает доходность предсказуемой.</p>
+          <button class="btn btn-secondary" onclick="document.getElementById('quiz').scrollIntoView({behavior:'smooth'})">Узнать подробности</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: #fff;">
+    <div class="container">
+      <div class="section-title">
+        <h2>Как мы защищаем ваши вложения</h2>
+        <p>Снимаем главные страхи инвестора: юридическая чистота, прозрачность оплаты, понятные сроки</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Юридическая проверка</h3>
+          <p>Проверяем титул, регистрацию договора в земельном кадастре, отсутствие обременений. Без регистрации могут возникнуть проблемы при перепродаже — мы это контролируем.</p>
+        </div>
+        <div class="card">
+          <h3>Прозрачность этапов</h3>
+          <p>Фиксируем в договоре этапы сделки, сроки, стоимость услуг и ответственность сторон. Вы всегда знаете, на каком этапе находится сделка и кто за неё отвечает.</p>
+        </div>
+        <div class="card">
+          <h3>Поддержка после сделки</h3>
+          <p>Управление арендой, контроль состояния объекта, помощь с налогами и отчётностью. Один контакт на все вопросы — ваш персональный менеджер 24/7.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quiz">
+    <div class="container">
+      <div class="section-title">
+        <h2>Подберём инвестиционный объект под ваш запрос</h2>
+        <p>Ответьте на 5 вопросов — и получите подборку из 2–3 объектов с расчётом доходности и сроками окупаемости</p>
+      </div>
+      <div class="quiz-block">
+        <form class="quiz-form" onsubmit="alert('Спасибо! Мы получили ваш запрос. Менеджер свяжется с вами в течение 15 минут для расчёта доходности.'); return false;">
+          <label>Цель инвестиции:</label>
+          <select name="goal">
+            <option value="resale">Перепродажа после сдачи</option>
+            <option value="long_rent">Долгосрочная аренда</option>
+            <option value="short_rent">Краткосрочная аренда (курортная)</option>
+            <option value="guaranteed">Гарантированная аренда (от застройщика)</option>
+          </select>
+
+          <label>Бюджет на покупку:</label>
+          <input type="text" placeholder="$150 000 – $250 000" required>
+
+          <label>Приоритет:</label>
+          <select name="priority">
+            <option value="max_return">Максимальная доходность</option>
+            <option value="low_risk">Минимальный риск и предсказуемость</option>
+            <option value="location">Локация: море, университет, центр города</option>
+          </select>
+
+          <label>Способ оплаты:</label>
+          <select name="payment">
+            <option value="full">Полная оплата</option>
+            <option value="installment">Рассрочка от застройщика</option>
+            <option value="crypto">Криптовалюта</option>
+          </select>
+
+          <label>Ваше имя и телефон:</label>
+          <input type="text" placeholder="Иван Иванов, +7 (999) 000-00-00" required>
+
+          <br><br>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Получить подборку и расчёт доходности</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Агентство недвижимости Северного Кипра. Все права защищены.</p>
+      <p style="margin-top: 10px;">
+        <a href="tel:+79990000000">+7 (999) 000-00-00</a> | <a href="https://wa.me/79990000000">WhatsApp</a> | <a href="mailto:info@example.com">info@example.com</a>
+      </p>
+      <p style="font-size: 0.85rem; margin-top: 20px;">Данный сайт носит информационный характер и не является публичной офертой.</p>
+    </div>
+  </footer>
+</body>
+</html>
